@@ -27,8 +27,27 @@ body {
   width: 550px;
   padding: 1rem;
   border-radius: 10px;
-  color: wheat;
+  color: rgb(176, 174, 194);
   backdrop-filter: blur(5px);
+}
+.down {
+  font-size: 5rem;
+  color: orangered;
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: rotate(90deg);
+  animation: godown 1s infinite;
+}
+@keyframes godown {
+  0% {
+    bottom: 80px;
+    left: 50%;
+  }
+  100% {
+    bottom: 10px;
+    left: 50%;
+  }
 }
 /* <!-- navbar  --> */
 
