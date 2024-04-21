@@ -80,3 +80,37 @@ nav ul li:hover {
 /* <!-- paragraph  --> */
 
 /* <!-- image  --> */
+
+[class^="img"] {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  background: rgba(10, 10, 10, 0.781);
+  color: white;
+  font-size: 2rem;
+  padding: 1.4rem 5rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  backdrop-filter: blur(2px);
+}
+
+.img1 {
+  background: url(./assets/a.jpg) no-repeat center;
+  background-size: cover;
+}
+.img2 {
+  background: url(./assets/b.jpg) no-repeat center;
+  background-size: cover;
+}
+.img3 {
+  background: url(./assets/c.jpg) no-repeat center;
+  background-size: cover;
+}
+.img4 {
+  background: url(./assets/d.jpg) no-repeat center;
+  background-size: cover;
+}
