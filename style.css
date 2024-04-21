@@ -118,3 +118,10 @@ nav ul li:hover {
   background-size: cover;
   background-attachment: fixed;
 }
+
+footer {
+  background: black;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
