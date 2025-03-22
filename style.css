@@ -98,24 +98,34 @@ nav ul li:hover {
   backdrop-filter: blur(2px);
 }
 
+/* Example for img1 */
 .img1 {
-  background: url(./assets/a.jpg) no-repeat center;
+  background-image: url("./assets/a.jpg");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
+
+/* Example for img2 */
 .img2 {
-  background: url(./assets/b.jpg) no-repeat center;
+  background-image: url("./assets/b.jpg");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
+
+/* Repeat for other sections... */
+
 .img3 {
-  background: url(./assets/c.jpg) no-repeat center;
+  background-image: url("./assets/c.jpg");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 .img4 {
-  background: url(./assets/d.jpg) no-repeat center;
+  background-image: url("./assets/d.jpg");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -124,4 +134,15 @@ footer {
   color: white;
   padding: 4rem;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  /* For mobile devices */
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    background-attachment: scroll; /* Disable fixed background for mobile */
+    background-position: center center;
+  }
 }
